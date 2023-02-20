@@ -4,50 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+     <!-- Bootstrap core CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css"/>
     <title>About us</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../pages/brands.html">BRANDS</a></li>
-                <!--desde aqui te trasladas a los otros html-->
-                <li><a href="../pages/about-us.html">ABOUT US</a></li>
-                <li><a href="../pages/contact-us.html">CONTACT US</a></li>
-                <li><a href="../pages/tours.html">TOURS</a>
-                <!--Link páginas de retorno-->
-            </ul>
-        </nav>
-    </header>
-    <h1>SURFSKATE</h1>
-    <div><a href="../img/LELE.jpg" alt=manfly></a>></div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Animi magni optio distinctio error ut repellatcons.
-    </p>
-    <div>image2</div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Animi magni optio distinctio error ut repellatcons.
-    </p>
-    <div>image3</div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Animi magni optio distinctio error ut repellatcons.
-    </p>
-   <!--LINKEAR A YOUTUBE-->
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/nGMd9yjz8Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>MISION</p>
-    <p>VISION</p>
-    <p>BRAND VALUES</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Animi magni optio distinctio error ut repellatcons.
-    </p>
-    <footer>
-        <div>
-            <p>This form is protected by reCAPTCHA and the Google</p>
-            <a rel="noreferrer noopener" href="http://policies.google.com/privacy" target="_blank">Privacy Policy<a/> " and "
-            <a rel="noreferrer noopener" href="http://policies.google.com/privacy" target="_blank">Terms of Service<a/> " apply "
-            <p> © 2022 First Gear Inc</p>
-            </div>
-    </footer>
+    <div class="background">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/logonew.jpg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li><a href="../index.html">HOME</a></li>
+                        <!--desde aqui te trasladas a los otros html-->
+                        <li><a href="../pages/brands.html">BRANDS</a></li>
+                        <li><a href="../pages/contact-us.html">CONTACT US</a></li>
+                        <li><a href="../pages/tours.html">TOURS</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">HOME</a></li>
+                            <li><a class="dropdown-item" href="/pages/brands.html">BRANDS</a></li>
+                            <li><a class="dropdown-item" href="./pages/boards.html">BOARDS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <h1>SURFSKATE</h1>
+        <div><a href="../img/LELE.jpg" alt=manfly></a>></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Animi magni optio distinctio error ut repellatcons.
+        </p>
+        <div>image2</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Animi magni optio distinctio error ut repellatcons.
+        </p>
+        <div>image3</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Animi magni optio distinctio error ut repellatcons.
+        </p>
+        <!--LINKEAR A YOUTUBE-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nGMd9yjz8Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>MISION</p>
+        <p>VISION</p>
+        <p>BRAND VALUES</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Animi magni optio distinctio error ut repellatcons.
+        </p>
+        <footer>
+            <div>
+                <p>This form is protected by reCAPTCHA and the Google</p>
+                <a rel="noreferrer noopener" href="http://policies.google.com/privacy" target="_blank">Privacy Policy<a/> " and "
+                <a rel="noreferrer noopener" href="http://policies.google.com/privacy" target="_blank">Terms of Service<a/> " apply "
+                <p> © 2022 First Gear Inc</p>
+                </div>
+        </footer>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>

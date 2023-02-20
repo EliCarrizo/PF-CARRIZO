@@ -4,7 +4,6 @@
     padding: 0;
     border: 0;
 }
-/* Imagen de fondo ok cambiada*/
 h1{
     color: chartreuse;
 }
@@ -28,7 +27,7 @@ li{
     float: left;
     background-color: black;
 }
-/* cambiar la tipografía y colores + la ubicacion*/
+/* Se logró cambiar el lugar pero resta que sea más clara*/
 li a {
     display: block;
     text-align: center;
@@ -37,7 +36,7 @@ li a {
     color:greenyellow;
     text-decoration: none;
   }
-/* El cuerpo hoy tiene un color cálido pero atino a otra gama para cautivar la atención del user*/
+/* Imagen de fondo ok cambiada*/
 .background{
     margin-left: 0%;
     margin-right: 0%;
@@ -68,7 +67,7 @@ main{
     justify-items: stretch;
 }
 /* Media queries*/
-@media screen and (max-width: 380px) {
+@media screen and (min-width: 380px) {
     .body {
         background-color: greenyellow;
     }
