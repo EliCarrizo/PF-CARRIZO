@@ -46,8 +46,9 @@ li a {
     text-align:center;
     outline-style: dotted;
 }
+
 /* Media queries*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 380px) {
     .body {
         background-color: greenyellow;
     }
