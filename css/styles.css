@@ -4,49 +4,69 @@
     padding: 0;
     border: 0;
 }
-/* Titulo en grande quiero ponerle la imagen de fondo*/
+/* Imagen de fondo ok cambiada*/
 h1{
     color: chartreuse;
-    text-align: center;
 }
 /*a futuro quiero cambiar la ubicación y los colores */
-ul{
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    display: flex;
+}
+.container-fluid{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     list-style-type: none;
     margin-top: 0px;
     margin-left: 0px;
+    margin-right: 0%;
     overflow: hidden;
+    background-color: black;
 }
 li{
     float: left;
+    background-color: black;
 }
 /* cambiar la tipografía y colores + la ubicacion*/
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 8px;
     background-color:black;
+    color:greenyellow;
     text-decoration: none;
   }
 /* El cuerpo hoy tiene un color cálido pero atino a otra gama para cautivar la atención del user*/
-.container{
+.background{
+    margin-left: 0%;
+    margin-right: 0%;
     text-align:center;
-    background-color:rgba(51, 65, 54, 0.575);
+    background-image: url(../img/backboy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-size: medium;
 }
 /* cada imagen es igual por ahora pero a futuro se cambia*/
 .boyfly{
     height: 100px;
     align-content:space-around;
+    border-radius: 50px;
 }
 /* va a depender del fondo pero ahora dejo en blanco*/
 .colorwhite{
-    background-color: blanchedalmond;
-    font-size: 20px;
-    text-align:center;
-    outline-style: dotted;
+    /*tengo que ver el color del fondo*/
+    color: black;
+    font-size: 25px;
+    text-align:inherit;
 }
-
+main{
+    display: grid;
+    justify-items: stretch;
+}
 /* Media queries*/
 @media screen and (max-width: 380px) {
     .body {

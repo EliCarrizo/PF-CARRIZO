@@ -13,48 +13,56 @@
 </head>
 <body>
     <!--Resta agregar el color de fondo o img-->
-    <div class="container pt-3 bg-dark.bg-gradient">
+    <div class="background">
         <header>
-            <nav><!--Crear barra de navegación con fondo una imagen como el wireframe-->
+                <!--Crear barra de navegación con fondo una imagen como el wireframe-->
                 <h1>Sunset Skateshop</h1>
-                    <ul>
-                        <li><a href="./index.html">HOME</a></li>
-                        <li><a href="./pages/brands.html">BRANDS</a></li>
-                        <li><a href="./pages/boards.html">BOARDS</a></li>
-                        <!--desde aqui te trasladas a los otros html-->
-                        <li><a href="./pages/about-us.html">ABOUT US</a></li>
-                        <li><a href="./pages/contact-us.html">CONTACT US</a></li>
-                        <li><a href="./pages/tours.html">TOURS</a>
-                    </ul>
-            </nav>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="./img/logonew.jpg"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li><a href="./pages/brands.html">BRANDS</a></li>
+                            <li><a href="./pages/boards.html">BOARDS</a></li>
+                            <!--desde aqui te trasladas a los otros html-->
+                            <li><a href="./pages/about-us.html">ABOUT US</a></li>
+                            <li><a href="./pages/contact-us.html">CONTACT US</a></li>
+                            <li><a href="./pages/tours.html">TOURS</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./index.html">HOME</a></li>
+                                <li><a class="dropdown-item" href="/pages/brands.html">BRANDS</a></li>
+                                <li><a class="dropdown-item" href="./pages/boards.html">BOARDS</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
         </header>
         <main>
             <h2>ENTER THE WORLD OF SKATE</h2>
             <h3>¡We have all you need!</h3>
             <div>
-                <img class="boyfly"src="./img/boyfliy.jpeg" alt="boyfly">
-                <h3>Description</h3>
-                <P class="colorwhite">Lorem ipsum dolor sit,
-                    amet consectetur adipisicing elit. Repellendus
-                    illum, eligendi asperiores doloribus consequuntur
-                    ratione voluptatum dignissimos? Ullam veritatis molestias,
-                    sit odio quod id commodi, rerum laborum delectus nobis ab.
+                <img class="boyfly"src="./img/boyfly1.JPG" alt="boyfly1">
+                <h3>Skateboards</h3>
+                <P class="colorwhite">We have everything related to skateboarding, boards, trucks, griptapes,
+                     wheels, each product is of excellent quality and tested by professionals
                 </P>
-                <img class="boyfly"src="./img/boyfliy.jpeg" alt="boyfly2">
-                <h3>Description</h3>
-                <p class="colorwhite">Lorem ipsum dolor sit,
-                amet consectetur adipisicing elit. Repellendus
-                illum, eligendi asperiores doloribus consequuntur
-                ratione voluptatum dignissimos? Ullam veritatis molestias,
-                sit odio quod id commodi, rerum laborum delectus nobis ab.
+                <img class="boyfly"src="./img/LELE.jpeg" alt="lele">
+                <h3>Surf</h3>
+                <p class="colorwhite">Today we have boards brought from outside with top quality material,
+                    tested by champions and each board has a particular design for each level of competition.
                 </p>
-                <img class="boyfly"src="./img/boyfliy.jpeg" alt="boyfly3">
-                <h3>Description</h3>
-                <p class="colorwhite">Lorem ipsum dolor sit,
-                amet consectetur adipisicing elit. Repellendus
-                illum, eligendi asperiores doloribus consequuntur
-                ratione voluptatum dignissimos? Ullam veritatis molestias,
-                sit odio quod id commodi, rerum laborum delectus nobis ab.
+                <img class="boyfly"src="./img/SNOW.jpg" alt="snowboy">
+                <h3>Snowboarding</h3>
+                <p class="colorwhite">
+                    Today we have the first boards, helmets, clothing from the United States, Canada,
+                     with our ambassador John White, each product was tested by the current champion
                 </p>
             </div>
         </main>
@@ -62,15 +70,8 @@
             <h2>SKATEBOARDING IS POETRY IN MOTION</h2>
             <!--LINKEAR A YOUTUBE-->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nGMd9yjz8Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h3>Description</h3>
-            <img class="boyfly"src="./img/boyfliy.jpeg" alt="boyfly4">
-            <h3>Description</h3>
-            <P>Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Repellendus
-            illum, eligendi asperiores doloribus consequuntur
-            ratione voluptatum dignissimos? Ullam veritatis molestias,
-            sit odio quod id commodi, rerum laborum delectus nobis ab.
-            </P>
+            <h3>Ryan Sheckler</h3>
+            <P>Check this link of one of the best skaters of the moment!</P>
             <h2>#Customer references</h2>
             <p>I had the opportunity to find this page for which today I could have quality products</p>
             <div>
