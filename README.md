@@ -1,15 +1,13 @@
 🚀Coderhouse🚀
 
-# 2da-PRE-ENTREGA
+🔧Segunda pre-entrega de tu Proyecto Final🔧
 
-Problematic third week 03 🔧
 
-📌 https://github.com/EliCarrizo/2da-PRE-ENTREGA.git
 
 Author:
 
 Eliana Carrizo
 
+📌 https://github.com/EliCarrizo/2da-PRE-ENTREGA.git
+
 📢Thanks📢
-
-
