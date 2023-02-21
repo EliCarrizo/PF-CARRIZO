@@ -7,7 +7,7 @@
 h1{
     color: chartreuse;
 }
-/*a futuro quiero cambiar la ubicación y los colores */
+/*it remains to remove the white line from the nav*/
 .navbar{
     background-color: black;
 }
@@ -27,7 +27,7 @@ li{
     float: left;
     background-color: black;
 }
-/* Se logró cambiar el lugar pero resta que sea más clara*/
+/* It was possible to change the place but it remains to be clearer*/
 li a {
     display: block;
     text-align: center;
@@ -36,7 +36,7 @@ li a {
     color:greenyellow;
     text-decoration: none;
   }
-/* Imagen de fondo ok cambiada*/
+/* Background image ok changed*/
 .background{
     margin-left: 0%;
     margin-right: 0%;
@@ -51,15 +51,19 @@ li a {
     color:black;
     font-size: medium;
 }
-/* cada imagen es igual por ahora pero a futuro se cambia*/
+/* the images were changed*/
 .boyfly{
     height: 100px;
     align-content:space-around;
     border-radius: 50px;
 }
-/* va a depender del fondo pero ahora dejo en blanco*/
+.text-tours{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+/* It will depend on the background but now I leave it black*/
 .colorwhite{
-    /*fondo se visualiza con la imagen de fondo*/
+    /*background is displayed with the background image*/
     color: black;
     font-size: 25px;
     text-align:inherit;
@@ -72,39 +76,36 @@ main{
     height: 100px;
     align-content:space-around;
 }
-/*Animacion*/
-.azul-neon{
-    animation: azul-neon 2 infinite alternate;
+/*Animation*/
+.animation {
+    color: greenyellow;
+    font-weight: 700;
+    font-size: 50px;
+    animation: blue-neon 2s infinite alternate;
 }
-
-@keyframes azul-neon {
+@keyframes blue-neon {
     0%, 10%, 15%, 20%, 30%,40%, 50%, 60%, 70%, 80%, 90%, 100% {
-        text-shadow: 9px 9px 18px #34ff60,
-                     3px 3px 5px #34ff82,
-                     -3px -3px 5px #34ff67,
-                     -9px -9px 27px #34ff56;
+        text-shadow: 9px 9px 18px #3485ff,
+                     3px 3px 5px #00246c,
+                     -3px -3px 5px #00246c,
+                     -9px -9px 27px 3485ff;
     }
 
-    10%, 15%, 60%{
+    10%, 15%, 60% {
         text-shadow: none;
     }
 
 }
-./*myanimation{
-    animation-name: skateboarding;
-    animation-duration: 5s;
-    position: relative;
-    animation-direction: reverse;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-}
-@keyframes skateboarding {
- 0% {background-image: left:0 top:0px}
-}
 
 /* Media queries*/
-@media screen and (min-width: 380px) {
-    .body {
-        ;
-    }
-}
+/*I can not configure so that the video at such a height does not bring it to me*/
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    /* If the screen size is 600px wide or less, hide the element */
+        iframe {
+        display:none;
+        }
+       }
+
+
+
