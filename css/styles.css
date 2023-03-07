@@ -89,18 +89,33 @@ li a {
 }
 /* the images were changed*/
 .boyfly{
-    height: 100px;
-    width:200px;
+    padding-left: 105px;
+    margin-top: 10px;
+    height: 200px;
+    width:250px;
     display:flex;
     align-content:space-around;
     border-radius: 1rem;
     overflow: hidden;
     opacity: 0.5;
 }
-
 .boyfly:hover {
     opacity: 1.0;
-  }
+}
+
+.boyfly2{
+        padding-left: 0px;
+        height: 250px;
+        width:250px;
+        display:flex;
+        align-content:space-around;
+        border-radius: 1rem;
+        overflow: hidden;
+        opacity: 0.5;
+}
+.boyfly2:hover{
+    opacity: 1.0;
+}
 
 .border{
     background-color: pink;
