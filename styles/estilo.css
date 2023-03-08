@@ -92,7 +92,7 @@ main .card {
   overflow: hidden;
   transition: all 0.25s;
 }
-main:hover {
+main .card:hover {
   transform: translate(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
@@ -107,7 +107,7 @@ main .boyfly {
   overflow: hidden;
   opacity: 0.5;
 }
-main:hover {
+main .boyfly:hover {
   opacity: 1;
 }
 main .boyfly2 {
@@ -120,7 +120,7 @@ main .boyfly2 {
   overflow: hidden;
   opacity: 0.5;
 }
-main:hover {
+main .boyfly2:hover {
   opacity: 1;
 }
 main .colorwhite {
