@@ -5,8 +5,19 @@
   border: 0;
 }
 
-header {
+header{
   /*NEON ANIMATION*/
+  /*@keyframes blue-neon {
+  0%, 10%, 15%, 20%, 30%,40%, 50%, 60%, 70%, 80%, 90%, 100% {
+      text-shadow: 9px 9px 18px #3485ff,
+                  3px 3px 5px #00246c,
+                  -3px -3px 5px #00246c,
+                  -9px -9px 27px 3485ff;
+  }
+
+  10%, 15%, 60% {
+      text-shadow: none;
+  }}*/
   /*it remains to remove the white line from the nav*/
   /* It was possible to change the place but it remains to be clearer*/
 }
@@ -47,7 +58,7 @@ header li {
   float: left;
   background-color: black;
 }
-header a {
+header li a {
   display: block;
   text-align: center;
   padding: 8px;
@@ -70,7 +81,7 @@ main .background {
   margin-right: 0%;
   text-align: center;
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-  background-image: url(../../assets/img/backgroundfinal.webp);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -159,6 +170,7 @@ main .produtcs {
   align-content: space-around;
 }
 
+/*build el de media*/
 /* Media queries*/
 /*I can not configure so that the video at such a height does not bring it to me*/
 @media only screen and (min-width: 768px) {
