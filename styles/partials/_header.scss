@@ -8,16 +8,16 @@ header{
             font-family: $creepster;
             letter-spacing: 8px;
             font-size: $size45;
-            text-shadow: 0 0 5px pink, 0 0 15px pink, 0 0 30px pink;
+            text-shadow: 0 0 5px $pink, 0 0 15px pink, 0 0 30px pink;
         }
             .flicker {
-                animation: toblink 2s infinite backwards steps(5);
+                animation: toblink 2s $infinite-back steps(5);
             }
 
             @keyframes toblink {
                 to{
                     color:$grey;
-                    text-shadow: none;
+                    text-shadow: $none;
                 }
             }
 
@@ -26,46 +26,46 @@ header{
             background-color:$black;
         }
             .brand{
-                display: flex;
+                display: $flex;
             }
                 .container-fluid{
                     font-family: $system-li;
-                    list-style-type: none;
+                    list-style-type: $none;
                     margin-top: 0px;
                     margin-left: 0px;
                     margin-right: 0%;
-                    overflow: hidden;
+                    overflow: $hidden;
                     background-color: $black;
                 }
                 li{
-                    float: left;
+                    float: $left;
                     background-color: $black;
                 }
                 /* It was possible to change the place but it remains to be clearer*/
                     a {
-                        display: block;
-                        text-align: center;
+                        display: $block;
+                        text-align: $center;
                         padding: 8px;
                         background-color:$black;
                         color:$greenyellow;
-                        text-decoration: none;
+                        text-decoration: $none;
                     }
         /*Page 404*/
         .NavInsideTheHead{
-                display: flex;
+                display: $flex;
                 background-color: $white;
-                float:initial;
-                text-decoration:none;
+                float:$initial;
+                text-decoration:$none;
         }
                     ul{
-                        display: block;
-                        text-align: center;
-                        padding: 8px;
+                        display: $block;
+                        text-align: $center;
+                        padding:$padding-8;
                         background-color:$black;
                         color:$white;
                     }
                         .LiInsideTheUl{
-                            float: left;
+                            float: $left;
                             background-color:$white;
                         }
 }
