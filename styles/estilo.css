@@ -9,6 +9,7 @@ header {
   /*NEON ANIMATION*/
   /*it remains to remove the white line from the nav*/
   /* It was possible to change the place but it remains to be clearer*/
+  /*Page 404*/
 }
 header h1 {
   color: black;
@@ -54,6 +55,23 @@ header a {
   background-color: black;
   color: greenyellow;
   text-decoration: none;
+}
+header .NavInsideTheHead {
+  display: flex;
+  background-color: white;
+  float: initial;
+  text-decoration: none;
+}
+header ul {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+header .LiInsideTheUl {
+  float: left;
+  background-color: white;
 }
 
 main {
@@ -180,4 +198,14 @@ body .background {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: black;
   font-size: medium;
+}
+body .DivInsideTheBody {
+  background-image: url(../../assets/img/goku.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  font-size: x-large;
 }/*# sourceMappingURL=estilo.css.map */

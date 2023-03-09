@@ -50,5 +50,22 @@ header{
                         color:greenyellow;
                         text-decoration: none;
                     }
-
+        /*Page 404*/
+        .NavInsideTheHead{
+                display: flex;
+                background-color: white;
+                float:initial;
+                text-decoration:none;
+        }
+                    ul{
+                        display: block;
+                        text-align: center;
+                        padding: 8px;
+                        background-color:black;
+                        color:white;
+                    }
+                        .LiInsideTheUl{
+                            float: left;
+                            background-color:white;
+                        }
 }
