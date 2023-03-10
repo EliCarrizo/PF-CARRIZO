@@ -7,7 +7,7 @@ main{
     .animation {
         color: $black;
         background-color: $pink;
-        font-weight: 700;
+        font-weight: $f-weight-700;
         font-size: $size50;
         -ms-transform: rotate(5deg); /* IE 9 */
         transform: rotate(-5deg);
@@ -15,7 +15,7 @@ main{
     .animation2{
         color: $black;
         background-color: $pink;
-        font-weight: 300px;
+        font-weight: $f-weight-300;
         font-size: $size25;
         -ms-transform: rotate(5deg); /* IE 9 */
         transform: rotate(-5deg);
@@ -42,13 +42,13 @@ main{
 
     /* the images were changed*/
     .boyfly{
-        padding-left: 105px;
-        margin-top: 10px;
-        height: 200px;
-        width:250px;
+        padding-left: $p-lef-105;
+        margin-top: $m-top;
+        height: $width;
+        width:$width;
         display:$flex;
         align-content:$space-around;
-        border-radius: 1rem;
+        border-radius: $border-r;
         overflow: $hidden;
         opacity: 0.5;
 
@@ -58,12 +58,12 @@ main{
     }
 
     .boyfly2{
-        padding-left: 0px;
-        height: 250px;
-        width:250px;
+        padding-left: $padding-left;
+        height:$height;
+        width:$width;
         display:$flex;
         align-content:$space-around;
-        border-radius: 1rem;
+        border-radius: $border-r;
         overflow: $hidden;
         opacity: 0.5;
 
@@ -82,16 +82,16 @@ main{
     .border{
         background-color: $pink;
         color: $black;
-        font-weight: 100rem;
+        font-weight: $f-weight;
         font-family: $lucida;
     }
     .text-tours{
         font-family: $system-li;
-        font-size: 2rem;
+        font-size: $f-size;
         text-align: $center;
     }
     .produtcs{
-        height: 100px;
+        height: $height-100;
         align-content:$space-around;
     }
 
