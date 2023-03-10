@@ -16,15 +16,15 @@
         font-size: $medium;
     }
 
-        .DivInsideTheBody{
-            background-image: url(../../assets/img/goku.webp);
-            background-position: $center;
-            background-repeat: $no-repeat;
-            background-size: contain;
-            background-attachment: $fixed;
-            font-family: $apple-blink;
-            color:$black;
-            font-size:$large;
-        }
+    .DivInsideTheBody{
+        background-image:url(../../assets/img/goku.webp);
+        background-position: $center;
+        background-repeat: $no-repeat;
+        background-size: contain;
+        background-attachment: $fixed;
+        font-family: $apple-blink;
+        color:$black;
+        font-size:$large;
+    }
 
 }
