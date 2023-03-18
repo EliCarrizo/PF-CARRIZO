@@ -1,8 +1,8 @@
 /* Media queries*/
 /* For DESKTOP: */
- .grid-container{
+.grid-container{
                 display:grid;
-                grid-template-areas: 1fr 1fr 1fr;
+                grid-template-areas: "1fr 1fr 1fr";
 
 }
 
@@ -16,7 +16,7 @@
         }
         .grid-container{
                 display:grid;
-                grid-template-areas: 1fr;
+                grid-template-areas: "1fr";
         }
 
 }

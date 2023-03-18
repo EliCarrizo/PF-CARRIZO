@@ -1,6 +1,4 @@
 main{
-    display: $grid;
-    grid-template-areas: 1fr 1fr 1fr;
     justify-items:$stretch ;
     text-align: $center;
 
@@ -21,7 +19,6 @@ main{
     }
     /*CARDS OKI DOKI*/
     .col{
-        margin: 20%;
         background-color: $pink;
         color:$black;
         font-size: $medium;
@@ -42,10 +39,8 @@ main{
 
     /* the images were changed*/
     .boyfly{
-        padding-left: $p-left-105;
-        margin-top: $m-top;
+        margin: 0 auto;
         width:$width;
-        margin:0 auto;
         align-content:$space-around;
         border-radius: $border-r;
         overflow: $hidden;
@@ -78,6 +73,7 @@ main{
         text-align:$inherit;
     }
     .border{
+        margin: 0 auto;
         background-color: $pink;
         color: $black;
         font-weight: $f-weight;
