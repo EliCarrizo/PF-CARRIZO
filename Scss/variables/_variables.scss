@@ -49,6 +49,10 @@ $padding-left:0px;
 $p-left-105:105px;
 $m-top:10px;
 
-
-
+$grid-breakpoints: (
+  xs: 0,
+  sm: 400px,
+  md: 768px,
+  xl: 1200px,
+);
 

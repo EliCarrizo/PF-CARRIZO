@@ -44,7 +44,6 @@ main{
     .boyfly{
         padding-left: $p-lef-105;
         margin-top: $m-top;
-        height: $width;
         width:$width;
         display:$flex;
         align-content:$space-around;
@@ -59,7 +58,6 @@ main{
 
     .boyfly2{
         padding-left: $padding-left;
-        height:$height;
         width:$width;
         display:$flex;
         align-content:$space-around;

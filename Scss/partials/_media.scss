@@ -1,10 +1,29 @@
 /* Media queries*/
 
 /*I can not configure so that the video at such a height does not bring it to me*/
-/* For mobile phones: */
+
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (min-width: 768px) {
         iframe {
         display:$none;
+
         }
+        .grid-container{
+                display:grid;
+                grid-template-areas: 1fr;
+        }
+
+}
+
+/* For DESKTOP: */
+@media only screen and (min-width: 1200px) {
+        .grid-item{
+                text-align: center;
+        }
+
+        .grid-container{
+                display:grid;
+                grid-template-areas: 1fr 1fr 1fr;
+        }
+
 }
