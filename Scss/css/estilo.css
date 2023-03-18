@@ -1,0 +1,211 @@
+/* Reset selector */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  /*NEON ANIMATION*/
+  /*it remains to remove the white line from the nav*/
+  /* It was possible to change the place but it remains to be clearer*/
+  /*Page 404*/
+}
+header h1 {
+  color: black;
+}
+header .neon {
+  font-family: "Creepster", cursive;
+  letter-spacing: 8px;
+  font-size: 45px;
+  text-shadow: 0 0 5px pink, 0 0 15px pink, 0 0 30px pink;
+}
+header .flicker {
+  animation: toblink 2s infinite backwards steps(5);
+}
+@keyframes toblink {
+  to {
+    color: grey;
+    text-shadow: none;
+  }
+}
+header .navbar {
+  background-color: black;
+}
+header .brand {
+  display: flex;
+}
+header .container-fluid {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0%;
+  overflow: hidden;
+  background-color: black;
+}
+header li {
+  float: left;
+  background-color: black;
+}
+header a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  background-color: black;
+  color: greenyellow;
+  text-decoration: none;
+}
+header .NavInsideTheHead {
+  display: flex;
+  background-color: white;
+  float: initial;
+  text-decoration: none;
+}
+header ul {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+header .LiInsideTheUl {
+  float: left;
+  background-color: white;
+}
+
+main {
+  display: grid;
+  justify-items: stretch;
+  text-align: center;
+  /*Animation*/
+  /*CARDS OKI DOKI*/
+  /* the images were changed*/
+  /* It will depend on the background but now I leave it black*/
+}
+main .animation {
+  color: black;
+  background-color: pink;
+  font-weight: 700;
+  font-size: 50px; /* IE 9 */
+  transform: rotate(-5deg);
+}
+main .animation2 {
+  color: black;
+  background-color: pink;
+  font-weight: 300px;
+  font-size: 25px; /* IE 9 */
+  transform: rotate(-5deg);
+}
+main .col {
+  background-color: pink;
+  color: black;
+  font-size: medium;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 3rem;
+  letter-spacing: 0.03em;
+}
+main .card {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.25s;
+}
+main .card:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+main .boyfly {
+  padding-left: 105px;
+  margin-top: 10px;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-content: space-around;
+  border-radius: 1rem;
+  overflow: hidden;
+  opacity: 0.5;
+}
+main .boyfly:hover {
+  opacity: 1;
+}
+main .boyfly2 {
+  padding-left: 0px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-content: space-around;
+  border-radius: 1rem;
+  overflow: hidden;
+  opacity: 0.5;
+}
+main .boyfly2:hover {
+  opacity: 1;
+}
+main .colorwhite {
+  /*background is displayed with the background image*/
+  color: black;
+  font-size: 25px;
+  text-align: inherit;
+}
+main .border {
+  background-color: pink;
+  color: black;
+  font-weight: 100rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main .text-tours {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+main .produtcs {
+  height: 100px;
+  align-content: space-around;
+}
+
+/* Media queries*/
+/*I can not configure so that the video at such a height does not bring it to me*/
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  /* If the screen size is 600px wide or less, hide the element */
+  iframe {
+    display: none;
+  }
+}
+footer {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+/* Background image ok changed*/
+body .background {
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: url(../../assets/img/backgroundfinal.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  font-size: medium;
+}
+body .DivInsideTheBody {
+  background-image: url(../../assets/img/goku.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  font-size: x-large;
+}/*# sourceMappingURL=estilo.css.map */
