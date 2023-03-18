@@ -1,3 +1,4 @@
+@import "../Scss/variables/variables";
 @import "https://fonts.googleapis.com/css2?family=Creepster&display=swap";
 @import "../Scss/partials/reset";
 @import "../Scss/partials/header";
@@ -7,4 +8,4 @@
 @import "../Scss/partials/section";
 @import "../Scss/partials/form";
 @import "../Scss/partials/body";
-@import "../Scss/variables/variables";
+@import "../Scss/partials/mixin.scss";
