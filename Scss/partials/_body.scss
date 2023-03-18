@@ -1,8 +1,6 @@
  /* Background image ok changed*/
  body{
         .background{
-            margin-left: 0%;
-            margin-right: 0%;
             text-align:$center;
             background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
             background-image:url(../../assets/img/backgroundfinal.webp);
@@ -16,8 +14,6 @@
         }
 
         .back-page{
-            margin-left: 0%;
-            margin-right: 0%;
             text-align:$center;
             background-image:url(../../assets/img/goku.webp);
             background-repeat: $no-repeat;

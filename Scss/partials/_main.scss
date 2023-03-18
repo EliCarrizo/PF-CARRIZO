@@ -6,23 +6,22 @@ main{
 
     /*Animation*/
     .animation {
+        width: 95%;
         color: $black;
         background-color: $pink;
         font-weight: $f-weight-700;
         font-size: $size50;
-        -ms-transform: rotate(5deg); /* IE 9 */
-        transform: rotate(-5deg);
     }
     .animation2{
+        width: 95%;
         color: $black;
         background-color: $pink;
         font-weight: $f-weight-300;
         font-size: $size25;
-        -ms-transform: rotate(5deg); /* IE 9 */
-        transform: rotate(-5deg);
     }
     /*CARDS OKI DOKI*/
     .col{
+        margin: 20%;
         background-color: $pink;
         color:$black;
         font-size: $medium;
