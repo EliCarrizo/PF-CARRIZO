@@ -1,8 +1,14 @@
+/* Colors*/
+/*Size*/
+/*Font*/
+/*Positions*/
+/*Boxes*/
+@import "https://fonts.googleapis.com/css2?family=Creepster&display=swap";
 /* Reset selector */
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -76,6 +82,7 @@ header .LiInsideTheUl {
 
 main {
   display: grid;
+  grid-template-areas: 1fr 1fr 1fr;
   justify-items: stretch;
   text-align: center;
   /*Animation*/
@@ -84,20 +91,21 @@ main {
   /* It will depend on the background but now I leave it black*/
 }
 main .animation {
+  width: 90%;
   color: black;
   background-color: pink;
-  font-weight: 700;
-  font-size: 50px; /* IE 9 */
-  transform: rotate(-5deg);
+  font-weight: 700px;
+  font-size: 50px;
 }
 main .animation2 {
+  width: 90%;
   color: black;
   background-color: pink;
   font-weight: 300px;
-  font-size: 25px; /* IE 9 */
-  transform: rotate(-5deg);
+  font-size: 25px;
 }
 main .col {
+  margin: 20%;
   background-color: pink;
   color: black;
   font-size: medium;
@@ -117,9 +125,8 @@ main .card:hover {
 main .boyfly {
   padding-left: 105px;
   margin-top: 10px;
-  height: 200px;
-  width: 250px;
-  display: flex;
+  width: 15%;
+  margin: 0 auto;
   align-content: space-around;
   border-radius: 1rem;
   overflow: hidden;
@@ -130,9 +137,8 @@ main .boyfly:hover {
 }
 main .boyfly2 {
   padding-left: 0px;
-  height: 250px;
-  width: 250px;
-  display: flex;
+  width: 15%;
+  margin: 0 auto;
   align-content: space-around;
   border-radius: 1rem;
   overflow: hidden;
@@ -164,12 +170,21 @@ main .produtcs {
 }
 
 /* Media queries*/
+/* For DESKTOP: */
+.grid-container {
+  display: grid;
+  grid-template-areas: 1fr 1fr 1fr;
+}
+
 /*I can not configure so that the video at such a height does not bring it to me*/
+/* If the screen size is 600px wide or less, hide the element */
 @media only screen and (min-width: 768px) {
-  /* For mobile phones: */
-  /* If the screen size is 600px wide or less, hide the element */
   iframe {
     display: none;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: 1fr;
   }
 }
 footer {
@@ -180,7 +195,9 @@ section {
   text-align: center;
 }
 
-form {
+.container {
+  margin: 0 auto;
+  width: 300px;
   text-align: center;
 }
 
@@ -199,13 +216,16 @@ body .background {
   color: black;
   font-size: medium;
 }
-body .DivInsideTheBody {
+body .back-page {
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
   background-image: url(../../assets/img/goku.webp);
-  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: black;
-  font-size: x-large;
+  color: pink;
+  font-size: medium;
 }/*# sourceMappingURL=estilo.css.map */

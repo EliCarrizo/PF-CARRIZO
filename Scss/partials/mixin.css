@@ -1,1 +1,10 @@
-/*# sourceMappingURL=mixin.css.map */
+/*@mixin background ($margin-auto){
+        margin:$margin-auto;
+}
+.background{
+    @include background($margin-auto);
+}
+
+.back-page{
+    @include background($margin-auto);
+}*//*# sourceMappingURL=mixin.css.map */
