@@ -45,7 +45,7 @@ main{
         padding-left: $p-lef-105;
         margin-top: $m-top;
         width:$width;
-        display:$flex;
+        margin:0 auto;
         align-content:$space-around;
         border-radius: $border-r;
         overflow: $hidden;
@@ -59,7 +59,7 @@ main{
     .boyfly2{
         padding-left: $padding-left;
         width:$width;
-        display:$flex;
+        margin:0 auto;
         align-content:$space-around;
         border-radius: $border-r;
         overflow: $hidden;
