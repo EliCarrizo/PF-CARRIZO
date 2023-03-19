@@ -1,12 +1,10 @@
 /* Media queries*/
 /* For DESKTOP: */
-.grid-container{
-                display:grid;
-                grid-template-areas: "1fr 1fr 1fr";
+.container{
+        display:grid;
+        grid-template-areas: "1fr 1fr 1fr";
 
 }
-
-/*I can not configure so that the video at such a height does not bring it to me*/
 
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (min-width: 768px) {
@@ -14,7 +12,7 @@
         display:$none;
 
         }
-        .grid-container{
+        .container{
                 display:grid;
                 grid-template-areas: "1fr";
         }
