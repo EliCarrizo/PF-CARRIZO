@@ -7,7 +7,7 @@
 }
 
 /* If the screen size is 600px wide or less, hide the element */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
         iframe {
         display:$none;
 

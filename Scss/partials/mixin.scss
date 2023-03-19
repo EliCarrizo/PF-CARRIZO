@@ -1,4 +1,4 @@
-/*@mixin background ($margin-auto){
+@mixin background ($margin-auto){
         margin:$margin-auto;
 }
 .background{
@@ -7,4 +7,4 @@
 
 .back-page{
     @include background($margin-auto);
-}*/
+}
