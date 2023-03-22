@@ -8,7 +8,7 @@ Author:
 
 Eliana Carrizo
 
-📌 https://github.com/EliCarrizo/2da-PRE-ENTREGA.git
+📌 https://elicarrizo.github.io/PreEntrega3-CARRIZO/
 
 📢Thanks📢
 
