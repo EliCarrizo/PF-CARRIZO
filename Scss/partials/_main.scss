@@ -92,5 +92,10 @@ main{
     .body-white{
         background-color: $pink;
     }
+    .page-text{
+        color: $white;
+        font-size: 200px;
+        text-shadow: $size2 $size2 $black;
+    }
 
 }

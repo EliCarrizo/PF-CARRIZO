@@ -25,8 +25,10 @@
             background-attachment: $fixed;
             background-size: $cover;
             font-family: $apple-blink;
-            color: $pink;
+            color: $white;
+            text-shadow: $size2 $size2 $black;
             font-size: $medium;
+            margin: 0;
         }
 
 }
