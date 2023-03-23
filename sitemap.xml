@@ -1,16 +1,11 @@
 <?XML version="1.0" enconding="UTF-8"?>
-
 <urlset>
-    <url>
-        <loc>
-            <lastmod>
-            </lastmod>
-            <changefrec>
-            </changefrec>
-            <priority>
-            </priority>
-        </loc>
-    </url>
+<url>
+    <loc></loc>
+    <lastmod>    </lastmod>
+    <changefrec>        </changefrec>
+    <priority>        </priority>
+</url>
 </urlset>
 <urlset>
     <url>
