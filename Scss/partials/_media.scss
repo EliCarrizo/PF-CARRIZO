@@ -1,19 +1,19 @@
 /* Media queries*/
 /* For DESKTOP: */
 .container{
-        display:grid;
+        display:$display-g;
         grid-template-areas: "1fr 1fr 1fr";
 
 }
 
 /* If the screen size is 600px wide or less, hide the element */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: $media-max-with) {
         iframe {
         display:$none;
 
         }
         .container{
-                display:grid;
+                display:$display-g;
                 grid-template-areas: "1fr";
         }
 

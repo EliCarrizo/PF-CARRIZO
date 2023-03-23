@@ -6,12 +6,12 @@ header{
         /*NEON ANIMATION*/
         .neon{
             font-family: $creepster;
-            letter-spacing: 8px;
+            letter-spacing: $letter-spa-8;
             font-size: $size45;
-            text-shadow: 0 0 5px $pink, 0 0 15px pink, 0 0 30px pink;
+            text-shadow: $size0 $size0 $text-s-5 $pink, $size0 $size0 15px pink, $size0 $size0 30px pink;
         }
             .flicker {
-                animation: toblink 2s $infinite-back steps(5);
+                animation: toblink $animation2 $infinite-back steps(5);
             }
 
             @keyframes toblink {
@@ -21,9 +21,13 @@ header{
                 }
             }
 
-        /*it remains to remove the white line from the nav*/
+        /*Navbar*/
         .navbar{
-            background-color:$black;
+
+            background-color: $black;
+        }
+            .navbar-toggler-icon{
+                background-color: $pink;
         }
             .brand{
                 display: $flex;
@@ -31,9 +35,9 @@ header{
                 .container-fluid{
                     font-family: $system-li;
                     list-style-type: $none;
-                    margin-top: 0px;
-                    margin-left: 0px;
-                    margin-right: 0%;
+                    margin-top: $margin-t0;
+                    margin-left: $margin-l0;
+                    margin-right: $margin-r0;
                     overflow: $hidden;
                     background-color: $black;
                 }
@@ -45,7 +49,7 @@ header{
                     a {
                         display: $block;
                         text-align: $center;
-                        padding: 8px;
+                        padding: $padd-8;
                         background-color:$black;
                         color:$greenyellow;
                         text-decoration: $none;

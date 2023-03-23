@@ -1,8 +1,8 @@
  /* Background image ok changed*/
  body{
         .background{
-            margin-left: 0%;
-            margin-right: 0%;
+            margin-left: $margin-rl0;
+            margin-right: $margin-rr0;
             text-align:$center;
             background-image:url(../assets/img/backgroundfinal.webp);
             background-repeat: $no-repeat;
@@ -12,12 +12,12 @@
             font-family: $apple-blink;
             color:$black;
             font-size: $medium;
-            margin: 0;
+            margin: $size0;
         }
 
         .back-page{
-            margin-left: 0%;
-            margin-right: 0%;
+            margin-left: $margin-rl0;
+            margin-right: $margin-rr0;
             text-align:$center;
             background-image:url(../../assets/img/goku.webp);
             background-repeat: $no-repeat;
@@ -28,7 +28,7 @@
             color: $white;
             text-shadow: $size2 $size2 $black;
             font-size: $medium;
-            margin: 0;
+            margin: $size0;
         }
 
 }
